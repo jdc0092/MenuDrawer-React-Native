@@ -11,7 +11,7 @@ import Nosotros from '../View/Nosotros';
 
 const Drawer = createDrawerNavigator();
 
-export default function MyDraw() {
+export default function MyDrawer() {
   return (
     <NavigationContainer>
       <Drawer.Navigator useLegacyImplementation initialRouteName="Home">
